@@ -1,5 +1,3 @@
 node_modules/
 package/
 *.tgz
-index.js
-index.min.js
