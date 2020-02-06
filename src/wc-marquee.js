@@ -89,4 +89,4 @@ export class WCMarquee extends HTMLElement {
   }
 }
 
-customElements.define('wc-marquee', WCMarquee);
+customElements.define('z4i-marquee', WCMarquee);
