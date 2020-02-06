@@ -66,7 +66,7 @@ class WCMarquee extends HTMLElement {
       .marquee {
         margin: 0 auto;
         white-space: nowrap;
-        color: aqua;
+        color: magenta;
         overflow: hidden;
         box-sizing: border-box;
       }
