@@ -35,7 +35,7 @@ class WCMarquee extends HTMLElement {
 
   async connectedCallback () {
     this.style.width = (this.style.width) ? this.style.width : '100%';
-    this.style.fontFamily = (this.style.fontFamily) ? this.style.fontFamily : 'Comic Sans MS';
+    this.style.fontFamily = (this.style.fontFamily) ? this.style.fontFamily : 'Helvetica';
     if (this.hasAttribute('party')) {
       this.setParty();
     }
@@ -66,7 +66,7 @@ class WCMarquee extends HTMLElement {
       .marquee {
         margin: 0 auto;
         white-space: nowrap;
-        color: magenta;
+        color: darkorange;
         overflow: hidden;
         box-sizing: border-box;
       }
